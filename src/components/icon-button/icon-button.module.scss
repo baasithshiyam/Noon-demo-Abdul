@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 5px;
+
+  svg {
+    fill: #ffffff;
+    height: 30px;
+    width: 30px;
+  }
+}

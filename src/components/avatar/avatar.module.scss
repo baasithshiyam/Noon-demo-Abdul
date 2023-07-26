@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  object-fit: cover;
+}

@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  z-index: 10;
+  right: 0;
+  background-color: #ffffff;
+  padding: 10px 0;
+  @include sm {
+    display: none;
+  }
+}
+
+.innerContainer {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 20px 0 30px;
+  a {
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(231, 231, 231);
+  }
+  p {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+  }
+
+  svg {
+    height: 25px;
+    width: 25px;
+    fill: #666666;
+  }
+}
+
+.tabActive {
+  @extend .tab;
+  p {
+    color: $primary-color;
+  }
+
+  svg {
+    fill: $primary-color;
+  }
+}
