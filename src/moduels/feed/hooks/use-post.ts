@@ -7,6 +7,7 @@ export const usePost = (type: "home" | "favorite") => {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
 
+  //get post type on faviourite 
   const getPosts = async () => {
     setIsLoading(true);
     try {
@@ -18,6 +19,7 @@ export const usePost = (type: "home" | "favorite") => {
     setIsLoading(false);
   };
 
+  // handle the fav 
   const handleFavorite = async (id: string, favorite: boolean) => {
     try {
       if (favorite) {

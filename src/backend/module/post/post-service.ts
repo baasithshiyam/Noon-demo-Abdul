@@ -13,6 +13,7 @@ export const get = async (type: string) => {
   return response.map((item) => ({ ...item, id: item._id }));
 };
 
+// update the existing items 
 export const update = async (id: string, favorite: boolean) => {
   const client = await clientPromise;
 
