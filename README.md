@@ -1,5 +1,6 @@
 
 Applicartion demo can be viewd at [https://youtu.be/j_r8nXaqPzI]
+![plot](./Screenshot 2023-07-29 at 18.17.48.png)
 
 
 Application  => ```/postman testing/api req.postman_collection.json```
