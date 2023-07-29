@@ -15,7 +15,7 @@ const FeedHeader = ({ active, onChange }: FeedHeaderProps) => {
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-        <a>Instagram Clone</a>
+        <a>Noon Demo </a>
         <div className={styles.tabs}>
           <div
             className={`${active === "home" ? styles.tabActive : styles.tab}`}

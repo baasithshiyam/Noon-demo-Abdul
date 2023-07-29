@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Noon Demo</title>
       </Head>
       <Feed />
     </>
